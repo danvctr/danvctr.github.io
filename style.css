@@ -31,9 +31,9 @@ body, html {
     overscroll-behavior: none;
     width: 100%;
     height: 100%;
-    filter: blur(3px);
     user-select: none;
     text-shadow: 0 0 2px rgba(0, 255, 0, 1); /* Glow effect */
+    animation: startBlur 4s ease-in;
 }
 
 .header-container {
@@ -98,17 +98,17 @@ body, html {
     }
 }
 
-@keyframes fall {
-    to {
-        transform: translateY(100vh)
-    }
-}
-
 @keyframes shrink {
   from {
     letter-spacing: 2px;
   }
   to {
     letter-spacing: 15px;
+  }
+}
+
+@keyframes startBlur {
+  to {
+      filter: blur(3px);
   }
 }
