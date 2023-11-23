@@ -35,6 +35,7 @@ body, html {
     text-shadow: 0 0 2px rgba(0, 255, 0, 1); /* Glow effect */
     animation: startBlur 4s ease-in;
     animation-delay: 4s;
+    animation-fill-mode: forwards;  /* Keep blur after animation */
 }
 
 .header-container {
