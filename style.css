@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Classic Console Neue';
+    src: url('/clacon2.woff2') format('woff2');
+    /* You can also include additional font formats (e.g., woff, ttf) for better browser compatibility */
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -23,7 +29,7 @@ body, html {
 
 .matrix-text {
     color: limegreen;
-    font-family: 'Inconsolata', Courier, monospace;
+    font-family: 'Classic Console Neue', 'Inconsolata', Courier, monospace;
     font-size: 16px;
     line-height: 20px;
     white-space: wrap;
@@ -49,7 +55,7 @@ body, html {
 
 .header-text {
     color: white;
-    font-family: 'Inconsolata', Courier, monospace;
+    font-family: 'Classic Console Neue', 'Inconsolata', Courier, monospace;
     font-size: 32px;
     margin: 0;
     filter: blur(1px);
