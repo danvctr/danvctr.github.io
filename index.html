@@ -20,6 +20,15 @@
         <p class="footer-text">Made with 🩶 by Dan Victor</p>
     </div>>
   <script  src="./script.js"></script>
+  <script>
+        function blurLetters() {
+          // Add event listener for animation end
+            matrixText.addEventListener('animationend', () => {
+                // Apply permanent styles after the animation is complete
+                matrixText.style.filter = 'blur(3px)';
+            }, { once: true });
+        }
+  </script>
 
 </body>
 </html>
