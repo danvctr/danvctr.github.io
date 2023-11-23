@@ -109,6 +109,9 @@ body, html {
 }
 
 @keyframes startBlur {
+  from {
+      filter: blur(0px);
+  }
   to {
       filter: blur(3px);
   }
