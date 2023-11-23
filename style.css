@@ -33,7 +33,7 @@ body, html {
     height: 100%;
     user-select: none;
     text-shadow: 0 0 2px rgba(0, 255, 0, 1); /* Glow effect */
-    animation: startBlur 4s ease-in;
+    animation: startBlur 4s ease-in, flicker 10s infinite ease-in-out alternate;
     animation-delay: 4s;
     animation-fill-mode: forwards;  /* Keep blur after animation */
 }
