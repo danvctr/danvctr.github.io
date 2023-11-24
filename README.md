@@ -1,4 +1,1 @@
-# Homepage Prototype
-
-A Pen created on CodePen.io. Original URL: [https://codepen.io/Dan-Victor/pen/bGzMapr](https://codepen.io/Dan-Victor/pen/bGzMapr).
-
+# E M B R A C E T H E A L G O R I T H M
