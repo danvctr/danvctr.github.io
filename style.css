@@ -55,7 +55,7 @@ body, html {
 
 .header-text {
     color: white;
-    font-family: 'Classic Console Neue', 'Inconsolata', Courier, monospace;
+    font-family: 'Inconsolata', Courier, monospace;
     font-size: 32px;
     margin: 0;
     filter: blur(1px);
