@@ -62,7 +62,7 @@ body, html {
     filter: blur(1px);
     text-transform: uppercase;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Glow effect */
-  animation: vibrate 10s infinite ease-in-out alternate, shrink 30s ease-in-out infinite alternate;
+  animation: vibrate 10s infinite ease-in-out alternate, expand 30s ease-in-out infinite alternate;
 }
 
 .footer-container {
@@ -107,7 +107,7 @@ body, html {
     }
 }
 
-@keyframes shrink {
+@keyframes expand {
   from {
     letter-spacing: 2px;
   }
